@@ -60,3 +60,22 @@ button {
     font-weight: 900;
     font-size: 30px;
 }
+.sign-up {
+    display: flex;
+    margin-top: 30px;
+    background-color: lightgray;
+    padding: 40px;
+    width: 600px;
+    border-radius: 5px;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+.text {
+    display: flex;
+    flex-basis: 80%;
+}
+footer {
+    background-color: #1A204C;
+    padding: 20px;
+    text-align: center;
+}
