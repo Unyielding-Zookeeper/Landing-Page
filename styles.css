@@ -18,6 +18,9 @@ nav  {
     margin-left: 60%;
     gap: 8px;
 }
+nav a {
+    color: white;
+}
 .container {
  display: flex; 
  margin-top: 40px;
@@ -78,4 +81,7 @@ footer {
     background-color: #1A204C;
     padding: 20px;
     text-align: center;
+}
+.logo {
+    border-radius: 5px;
 }
