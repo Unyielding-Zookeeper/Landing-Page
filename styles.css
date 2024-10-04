@@ -85,3 +85,42 @@ footer {
 .logo {
     border-radius: 5px;
 }
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-left: 0;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .images {
+        flex-direction: column;
+    }
+
+    .quote, .sign-up {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    button {
+        width: 100%;
+        max-width: 100px;
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
